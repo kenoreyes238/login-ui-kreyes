@@ -1,0 +1,23 @@
+body {
+    background-color:midnightblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.login-block {
+    background-color:antiquewhite;
+    margin: 50px 15px 15px 25px;
+    position: absolute;
+    padding: 15px; 
+    text-align: center;
+    height: 300px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.button {
+    background: transparent;
+}
