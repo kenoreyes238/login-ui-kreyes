@@ -1,22 +1,26 @@
-body {
+.container {
     background: linear-gradient(60deg, rgb(148, 207, 255), rgb(62, 123, 255), rgb(5, 1, 218));
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
     overflow: hidden;
+    
+    height: 100vh;
 }
 
 .login-block {
     background-color:white;
-    margin: 50px 15px 15px 25px;
-    position: absolute;
-    padding: 15px; 
-    height: 275px;
-    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    border: 10px;
     border-radius: 10px;
-    width: 350px;
-    box-shadow: 5px, 10px,black;
+    box-shadow: 5px 10px black;
 }
 
 #sign-in {
