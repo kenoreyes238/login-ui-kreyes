@@ -10,24 +10,24 @@
     <div class="container">
     <!--login page-->
     <div class="login-block">
-        <h1 class="center">Sign in</h1>
+        <h1 id="center">Sign in</h1>
         <form>
             <!--Sign up option-->
             <div>
-            <h4 class="center">Don't have an account with us?</h4>
-            <a id="sign-in" href="#">Sign up now</a>
+            <h4>Don't have an account with us?</h4>
+            <a id="create-acc" href="create-acc.html">Create an account now</a>
             </div>
             <!--email input field-->
-            <div class="text-field">
-                <input type="email" name="email" required>
-                <label>Email</label>
+            <div>
+                <label>Email <input class="text-field" type="email" name="email" placeholder="email" required>
+                </label>
             </div>
             <!--password input field-->
-            <div class="text_field">
-                <input class="text-field" type="password" name="password" required>
-                <label>Password</label>
+            <div>
+                <label>Password <input class="text-field" type="password" name="password" placeholder="password">
+                </label>
             </div>
-            <input class="buton" type="submit" value="login">
+            <input id="login-button" type="submit" value="login">
             <!--forgot password section-->
             <a id="forgot" href="#">Forget password?</a>
         </form>
